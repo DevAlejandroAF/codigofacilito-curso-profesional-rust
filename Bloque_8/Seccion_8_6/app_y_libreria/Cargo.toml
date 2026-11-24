@@ -1,0 +1,19 @@
+# Sección 8.6 - Separación entre app y librería
+#
+# Descripción:
+# Este package contiene un crate de librería y un crate binario.
+# La lógica de negocio vive en lib.rs y la app ejecutable vive en main.rs.
+#
+# Instrucciones:
+# Ejecuta este paquete desde la raíz CursoRust con:
+# cargo run -p app_y_libreria
+#
+# Ejecuta pruebas con:
+# cargo test -p app_y_libreria
+
+[package]
+name = "app_y_libreria"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

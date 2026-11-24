@@ -1,0 +1,19 @@
+# Sección 8.2 - Packages y crates
+#
+# Descripción:
+# Este manifiesto define un package llamado packages_crates.
+# El package contiene un crate de librería y dos crates binarios.
+#
+# Instrucciones:
+# Ejecuta el binario principal con:
+# cargo run -p packages_crates
+#
+# Ejecuta el segundo binario con:
+# cargo run -p packages_crates --bin reporte
+
+[package]
+name = "packages_crates"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

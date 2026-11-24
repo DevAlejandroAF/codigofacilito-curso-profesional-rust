@@ -1,0 +1,4 @@
+[package]
+name = "primer_proyecto_cargo"
+version = "0.1.0"
+edition = "2021"

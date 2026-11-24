@@ -1,0 +1,4 @@
+[package]
+name = "ejemplo_practico_modelado"
+version = "0.1.0"
+edition = "2021"

@@ -1,0 +1,4 @@
+[package]
+name = "filosofia_errores"
+version = "0.1.0"
+edition = "2021"

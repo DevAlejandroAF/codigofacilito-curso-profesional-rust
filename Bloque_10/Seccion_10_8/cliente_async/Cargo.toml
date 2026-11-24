@@ -1,0 +1,17 @@
+# Sección 10.8 - Ejemplo práctico
+#
+# Descripción:
+# Este package construye una utilidad asíncrona pequeña con Tokio.
+# Simula un cliente concurrente para procesar varias peticiones.
+#
+# Instrucciones:
+# Ejecuta este paquete desde la raíz CursoRust con:
+# cargo run -p cliente_async
+
+[package]
+name = "cliente_async"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "time"] }

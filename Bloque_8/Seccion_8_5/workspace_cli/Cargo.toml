@@ -1,0 +1,17 @@
+# Sección 8.5 - Workspaces
+#
+# Descripción:
+# Este package representa un binario dentro del workspace.
+# Depende de workspace_core usando una ruta local.
+#
+# Instrucciones:
+# Ejecuta este paquete desde la raíz CursoRust con:
+# cargo run -p workspace_cli
+
+[package]
+name = "workspace_cli"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+workspace_core = { path = "../workspace_core" }

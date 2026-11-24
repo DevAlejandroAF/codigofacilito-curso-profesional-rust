@@ -1,0 +1,17 @@
+# Sección 10.6 - Fundamentos de async/await
+#
+# Descripción:
+# Este package usa Tokio para ejecutar funciones async.
+# Tokio provee el runtime necesario para correr tareas asíncronas.
+#
+# Instrucciones:
+# Ejecuta este paquete desde la raíz CursoRust con:
+# cargo run -p async_await
+
+[package]
+name = "async_await"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "time"] }

@@ -1,0 +1,16 @@
+# Sección 1.5 - Estructura básica de un proyecto Rust
+#
+# Descripción:
+# Este archivo es el manifiesto del paquete estructura_proyecto.
+# Cargo lo usa para conocer el nombre, la versión, la edición del lenguaje
+# y las dependencias específicas de este paquete.
+#
+# Instrucciones:
+# Este archivo debe estar en la raíz del paquete estructura_proyecto.
+
+[package]
+name = "estructura_proyecto"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

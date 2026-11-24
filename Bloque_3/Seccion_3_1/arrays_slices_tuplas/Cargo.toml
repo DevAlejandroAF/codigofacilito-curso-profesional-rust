@@ -1,0 +1,4 @@
+[package]
+name = "arrays_slices_tuplas"
+version = "0.1.0"
+edition = "2021"

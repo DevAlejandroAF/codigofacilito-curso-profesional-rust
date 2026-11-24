@@ -1,0 +1,18 @@
+# Sección 8.3 - Dependencias con Cargo
+#
+# Descripción:
+# Este manifiesto muestra cómo declarar dependencias externas,
+# versiones y features dentro de Cargo.toml.
+#
+# Instrucciones:
+# Ejecuta este paquete desde la raíz CursoRust con:
+# cargo run -p dependencias_cargo
+
+[package]
+name = "dependencias_cargo"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

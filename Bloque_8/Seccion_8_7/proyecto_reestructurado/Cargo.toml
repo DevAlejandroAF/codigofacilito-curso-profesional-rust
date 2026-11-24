@@ -1,0 +1,16 @@
+# Sección 8.7 - Ejemplo práctico
+#
+# Descripción:
+# Este package muestra una reestructuración sencilla de un proyecto
+# en módulos separados por responsabilidad.
+#
+# Instrucciones:
+# Ejecuta este paquete desde la raíz CursoRust con:
+# cargo run -p proyecto_reestructurado
+
+[package]
+name = "proyecto_reestructurado"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

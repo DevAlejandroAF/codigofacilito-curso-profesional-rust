@@ -1,0 +1,15 @@
+# Sección 8.5 - Workspaces
+#
+# Descripción:
+# Este package representa una librería interna del workspace.
+# Será usado por otro package llamado workspace_cli.
+#
+# Instrucciones:
+# Este package se compila como parte del workspace general.
+
+[package]
+name = "workspace_core"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

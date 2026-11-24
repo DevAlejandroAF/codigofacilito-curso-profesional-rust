@@ -1,0 +1,17 @@
+# Sección 8.4 - Uso de crates.io
+#
+# Descripción:
+# Este manifiesto integra una crate externa encontrada en crates.io.
+# El ejemplo usa regex para validar texto con expresiones regulares.
+#
+# Instrucciones:
+# Ejecuta este paquete desde la raíz CursoRust con:
+# cargo run -p uso_crates_io
+
+[package]
+name = "uso_crates_io"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+regex = "1"
