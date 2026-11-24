@@ -1,0 +1,10 @@
+[workspace]
+resolver = "3"
+members = [
+  "Bloque_1/Seccion_1_4/primer_proyecto_cargo/",
+  "Bloque_1/Seccion_1_5/estructura_proyecto/",
+  "Bloque_1/Seccion_1_6/hello_world/",
+
+  "Bloque_2/Seccion_2_1/variables_mutabilidad/",
+  "Bloque_2/Seccion_2_6/ejemplo_practico/",
+]

@@ -25,7 +25,7 @@ fn main() {
     let mut intentos = 1;
     println!("Intentos iniciales: {intentos}");
 
-    intentos = intentos + 1;
+    intentos += 1;
     println!("Intentos después de actualizar: {intentos}");
 
     let puntaje = 85;

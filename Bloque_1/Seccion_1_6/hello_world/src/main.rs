@@ -25,8 +25,10 @@ cargo run -p hello_world
 */
 
 fn main() {
+    let mensaje = "Curso Rust";
     println!("Hello, world!");
     println!("Mi primer programa en Rust compiló correctamente.");
+    print!("{mensaje}");
 }
 
 /*
@@ -36,3 +38,4 @@ Ejercicio autónomo:
 3. Ejecuta cargo check -p hello_world antes de ejecutar cargo run -p hello_world.
 4. Observa si cargo check detecta errores antes de correr el programa.
 */
+
